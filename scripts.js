@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-  const API_URL = "http://127.0.0.1:5000/posts"; // Update this if your API is hosted elsewhere
+  const API_URL = "https://4bj0f1g0-5001.uks1.devtunnels.ms/posts"; // Update this if your API is hosted elsewhere
 
   function fetchPosts() {
     fetch(API_URL)
